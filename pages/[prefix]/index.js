@@ -12,7 +12,7 @@ import md5 from 'js-md5'
 import { useRouter } from 'next/router'
 import { idToUuid } from 'notion-utils'
 import { useEffect, useState } from 'react'
-
+export const runtime = 'edge';
 /**
  * 根据notion的slug访问页面
  * 只解析一级目录例如 /about

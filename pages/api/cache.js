@@ -1,5 +1,5 @@
 import { cleanCache } from '@/lib/cache/local_file_cache'
-
+export const runtime = 'edge';
 /**
  * 清理缓存
  * @param {*} req

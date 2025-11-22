@@ -3,7 +3,7 @@ import { siteConfig } from '@/lib/config'
 import { getGlobalData } from '@/lib/db/getSiteData'
 // import { getGlobalData } from '@/lib/db/getSiteData'
 import { DynamicLayout } from '@/themes/theme'
-
+export const runtime = 'edge';
 /**
  * 登录
  * @param {*} props
