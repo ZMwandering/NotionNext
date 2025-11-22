@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import Slug from '../[prefix]'
-export const runtime = 'experimental-edge';
+
 /**
  * 根据notion的slug访问页面
  * 解析二级目录 /article/about

@@ -1,5 +1,5 @@
 import subscribeToMailchimpApi from '@/lib/plugins/mailchimp'
-export const runtime = 'experimental-edge';
+
 /**
  * 接受邮件订阅
  * @param {*} req
