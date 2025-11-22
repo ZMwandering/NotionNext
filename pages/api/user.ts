@@ -1,6 +1,6 @@
 import { getAuth } from '@clerk/nextjs/server'
 import type { NextApiRequest, NextApiResponse } from 'next'
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 /**
  * Clerk 身份测试
  * @param req

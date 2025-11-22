@@ -2,7 +2,7 @@ import BLOG from '@/blog.config'
 import { siteConfig } from '@/lib/config'
 import { getGlobalData, getPost, getPostBlocks } from '@/lib/db/getSiteData'
 import { DynamicLayout } from '@/themes/theme'
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 /**
  * 根据notion的slug访问页面
  * 只解析一级目录例如 /about

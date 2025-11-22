@@ -1,7 +1,7 @@
 // pages/api/auth.js
 import axios from 'axios'
 import type { NextApiRequest, NextApiResponse } from 'next'
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 /**
  * Notion授权返回结果
  */

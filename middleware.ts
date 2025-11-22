@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { checkStrIsNotionId, getLastPartOfUrl } from '@/lib/utils'
 import { idToUuid } from 'notion-utils'
 import BLOG from './blog.config'
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 /**
  * Clerk 身份验证中间件
  */

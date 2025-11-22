@@ -2,7 +2,7 @@
 import { getGlobalData } from '@/lib/db/getSiteData'
 import { useRouter } from 'next/router'
 import Slug from '../[prefix]'
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 /**
 /**
  * @returns

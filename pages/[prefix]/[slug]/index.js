@@ -4,7 +4,7 @@ import { getGlobalData, getPost } from '@/lib/db/getSiteData'
 import { checkSlugHasOneSlash, processPostData } from '@/lib/utils/post'
 import { idToUuid } from 'notion-utils'
 import Slug from '..'
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 /**
  * 根据notion的slug访问页面
  * 解析二级目录 /article/about
